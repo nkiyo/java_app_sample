@@ -22,6 +22,7 @@ dependencies {
     // This dependency is used by the application.
     implementation(libs.guava)
 
+    // https://stackoverflow.com/a/20956456/6389347
     implementation(files("lib/lib.jar"))
 }
 
